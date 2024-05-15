@@ -1,8 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Counter from '../components/components/vue/Counter.vue';
+import Directives from '../components/components/vue/Directives.vue';
+import TODO from '../components/components/vue/TODO.vue'
 ---
 
 <Layout title="Welcome to Astro.">
-	<Counter client:load/>
+	<!-- <Counter client:load/> -->
+	<!-- <Directives client:load/> -->
+	<TODO client:load/>
+
 </Layout>
